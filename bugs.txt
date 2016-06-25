@@ -1,0 +1,3 @@
+* [25JUN2016]. “Could not create directory” Error when installing plugins - Wordpress. ;
+  > This happens when wp-content has limited permissions. Thus, in Ubuntu, run the following command in the terminal:
+  > sudo chmod -R o+rw wp-content/
